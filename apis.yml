@@ -1,0 +1,94 @@
+aid: remind
+name: Remind
+description: >-
+  Remind is a K-12 school-home communication platform that lets teachers,
+  schools, and districts message students and families by text, app, email,
+  and voice without exchanging personal phone numbers. The product line
+  includes Remind Chat, a free two-way messaging service used by individual
+  teachers and classrooms, and Remind Hub, a paid district-wide
+  communications platform with administrative controls, SIS integration,
+  delivery analytics, and translation into 90+ languages. Remind reports use
+  in roughly 80% of US public schools and by a majority of US teachers. In
+  November 2023, Santa Barbara-based ParentSquare acquired Remind, and the
+  combined company now operates under the ParentSquare name with Remind Hub
+  continuing for existing district customers and Remind Chat continuing for
+  classroom-level use; Remind Tutoring was discontinued as part of the
+  combination. Remind's only externally documented developer surface is the
+  Share on Remind SDK (the "Remind Share SDK"), a partner program that lets
+  approved third-party content providers embed the Remind composer into
+  their own product, authenticate Remind users via OAuth 2.0, serve
+  shareable content and previews via partner-hosted webhooks, and ship
+  messages back through Remind. The Share SDK is accessed by application
+  through partners@remind.com and the developer console at
+  remind.com/integrations; there is no public self-serve REST API, no
+  published OpenAPI specification, and no general-purpose messaging API
+  for sending Remind messages from third-party systems.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Messaging
+  - Communication
+  - Education
+  - K-12
+  - School Communication
+  - Parent Engagement
+  - Teacher Messaging
+  - SMS
+  - Translation
+  - OAuth
+  - Webhooks
+  - Share SDK
+  - ParentSquare
+url: https://raw.githubusercontent.com/api-evangelist/remind/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.remind.com
+  - type: Chat
+    url: https://www.remind.com/chat
+  - type: Hub
+    url: https://www.remind.com/hub
+  - type: Integrations
+    url: https://www.remind.com/integrations
+  - type: ShareSDK
+    url: https://engineering.remind.com/remind-share-sdk/
+  - type: ComposerIntegration
+    url: https://engineering.remind.com/remind-share-sdk/composer/
+  - type: BrandGuidelines
+    url: https://engineering.remind.com/remind-share-sdk/brand/
+  - type: Engineering
+    url: https://engineering.remind.com
+  - type: HelpCenter
+    url: https://help.remind.com
+  - type: Pricing
+    url: https://www.remind.com/pricing
+  - type: Privacy
+    url: https://www.remind.com/privacy
+  - type: Terms
+    url: https://www.remind.com/terms-of-service
+  - type: ParentCompany
+    url: https://www.parentsquare.com
+  - type: AcquisitionAnnouncement
+    url: https://www.parentsquare.com/blog/parentsquare-acquires-remind-expanding-options-for-school-home-engagement/
+  - type: GitHub
+    url: https://github.com/remind101
+  - type: Twitter
+    url: https://twitter.com/RemindHQ
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/remind101
+  - type: YouTube
+    url: https://www.youtube.com/user/remindhq
+  - type: Facebook
+    url: https://www.facebook.com/RemindHQ
+  - type: GooglePlay
+    url: https://play.google.com/store/apps/details?id=com.remind101
+  - type: PartnerContact
+    url: mailto:partners@remind.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
