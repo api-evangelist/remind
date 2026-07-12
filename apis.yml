@@ -47,6 +47,10 @@ modified: '2026-05-25'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/remind-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/remind-domain-security.yml
   - type: Website
     url: https://www.remind.com
   - type: Chat
