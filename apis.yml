@@ -40,6 +40,20 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remind.png
 tags:
   - Messaging
+  - Communications
+  - Education
+  - K-12
+  - School Communication
+  - Parent Engagement
+  - Teacher Messaging
+  - SMS
+  - Translation
+  - Authentication
+  - Webhook
+  - Share SDK
+  - ParentSquare
+tags_raw:
+  - Messaging
   - Communication
   - Education
   - K-12
